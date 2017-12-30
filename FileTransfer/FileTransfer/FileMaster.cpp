@@ -267,7 +267,7 @@ void FileMaster::TransferMode(char *addr_C_addr, unsigned short *Port, SOCKET *s
 	{
 		system("cls");//清屏
 		cout << "1、新建传输连接（未连接对方，知道对方ip和端口，端口不输入则默认）" << endl;
-		cout << "2、使用已连接传输（输入已连接的客户端的socke！ps：TCP使用，UDP一边玩蛋去）" << endl;
+		cout << "2、使用已连接传输（输入已连接的客户端的socke！    ps：TCP使用）" << endl;
 		cout << "3、查看已连接的客户端信息" << endl;
 		cout << "4、返回上一级" << endl;
 		cout << "请选择操作：";

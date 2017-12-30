@@ -46,7 +46,7 @@ void UDPTransfer::Bind(const USHORT& inPort)
 		if (a != SOCKET_ERROR)
 		{
 			re = true;
-			cout << "UDP端口:" << flag << endl << "爱记不记，不记拉倒！" << endl;
+			cout << "UDP端口:" << flag << endl;
 			system("pause");
 		}
 		else if (a == SOCKET_ERROR)
